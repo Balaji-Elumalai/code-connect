@@ -1,0 +1,35 @@
+{
+  "name": "example-angular",
+  "version": "0.1.0",
+  "description": "Example Angular plugin with a bundled skill and remote MCP access (DeepWiki).",
+  "author": {
+    "name": "Example Org",
+    "email": "support@example.com",
+    "url": "https://example.com"
+  },
+  "repository": "https://github.com/your-org/code-connect",
+  "license": "MIT",
+  "keywords": [
+    "example",
+    "mcp",
+    "angular"
+  ],
+  "homepage": "https://example.com",
+  "skills": "./skills/",
+  "mcpServers": "./agents/codex/.mcp.json",
+  "interface": {
+    "displayName": "Example Angular",
+    "shortDescription": "Angular skills and MCP tools for Codex",
+    "longDescription": "Example Angular plugin with a bundled skill and remote MCP access (DeepWiki).",
+    "developerName": "Example Org",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://example.com",
+    "defaultPrompt": [
+      "Explain how to structure a Angular component."
+    ]
+  }
+}

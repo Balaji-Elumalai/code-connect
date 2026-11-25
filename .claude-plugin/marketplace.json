@@ -1,0 +1,35 @@
+{
+  "name": "code-connect",
+  "owner": {
+    "name": "Example Org",
+    "email": "support@example.com"
+  },
+  "metadata": {
+    "description": "Example multi-plugin marketplace",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "example-react",
+      "source": "./plugins/example-react",
+      "description": "Example React plugin with a bundled skill and remote MCP access.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": [
+        "example",
+        "mcp"
+      ]
+    },
+    {
+      "name": "example-angular",
+      "source": "./plugins/example-angular",
+      "description": "Example Angular plugin with a bundled skill and remote MCP access.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": [
+        "example",
+        "mcp"
+      ]
+    }
+  ]
+}

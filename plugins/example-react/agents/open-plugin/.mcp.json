@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "example-react": {
+      "type": "http",
+      "url": "https://mcp.deepwiki.com/mcp",
+      "headers": {
+        "X-Source-Name": "open-plugin",
+        "X-Source-Version": "0.1.0"
+      }
+    }
+  }
+}
