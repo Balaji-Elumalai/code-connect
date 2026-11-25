@@ -1,0 +1,15 @@
+{
+  "name": "example-react",
+  "description": "Example React plugin with a bundled skill and remote MCP access (DeepWiki).",
+  "version": "0.1.0",
+  "contextFileName": "EXAMPLE.md",
+  "mcpServers": {
+    "example-react": {
+      "httpUrl": "https://mcp.deepwiki.com/mcp",
+      "headers": {
+        "X-Source-Name": "gemini-extension",
+        "X-Source-Version": "0.1.0"
+      }
+    }
+  }
+}
